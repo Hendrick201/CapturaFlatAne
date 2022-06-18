@@ -13,7 +13,10 @@ function catchData()
 }
 function enableButton()
 {
-    var button = document.getElementById("finalLink");
+    var button = document.getElementById("sendLink");
     var buttonBlinder = document.getElementById("finalLinkBlinder");
-
+        button.style.zIndex = "2";
+        buttonBlinder.style.zIndex = "0";
+        document.getElementById("finalLink").style.color = "white";
+        document.getElementById("finalLink").style.borderColor = "white";
 }
