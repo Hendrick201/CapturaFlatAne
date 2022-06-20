@@ -12,10 +12,6 @@ h1
     font-size:1.5em;
     text-align: center;
 }
-#formContainer
-{
-    margin-top: 20px;
-}
 a
 {
     border: 1px solid  rgb(194, 194, 194);
@@ -76,4 +72,67 @@ input
 #finalLink
 {
     color: rgb(194, 194, 194);
+}
+#checkBoxDiv
+{
+    margin-bottom: 10px;
+    display: none;
+}
+#checkBoxText
+{
+    text-align: center;
+    color: white;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0%;
+    background-color: red;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+
+}
+@keyframes   checkBoxAnimationShow
+{
+0%
+{
+    position: relative;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    opacity: 0%;
+}   
+100%
+{
+    position: relative;
+    transform: translateY(0%);
+    transform: translateX(-50%);
+    opacity: 100%;
+} 
+}
+@keyframes   checkBoxAnimationHidden
+{
+0%
+{
+    opacity: 100%;
+}   
+100%
+{
+    opacity: 0%;
+} 
+}
+@media  screen and (max-width: 860px)
+{
+    h1
+    {
+        font-size:1.2em;
+    }
+}
+@media  screen and (max-width: 350px)
+{
+    h1
+    {
+        font-size:1em;
+    }
 }

@@ -13,29 +13,34 @@
 
 <body>
     <div>
-        <div id="formContainer">
+        <div id="checkBoxDiv">
+            <p id="checkBoxText">POR FAVOR, PREENCHA TODOS OS CAMPOS!</p>
+        </div>
+        <div id="formContainer" onmousedown="enableButton()">
             <h1>Para mais informações sobre os planos de internet, preencha o formulário abaixo.</h1>
             <ul>
-                <li>
+                <li onmouseleave="enableButton()">
                     <input placeholder="Nome" type="text" name="" id="name">
                 </li>
-                <li>
+                <li onmouseleave="enableButton()">
                     <input placeholder="Celular" type="tel" name="" id="telNumber">
                 </li>
-                <li >
+                <li onmouseleave="enableButton()">
+                    <input placeholder="Cidade" type="text" name="" id="city">
+                </li>
+                <li onmouseleave="enableButton()">
                     <input placeholder="Rua" type="text" name="" id="addres">
                 </li>
-                <li>
+                <li onmouseleave="enableButton()">
                     <input placeholder="Número da residência" type="number" name="" id="addresNumber">
                 </li>
-               <li onmouseenter="enableButton()">
+               <li onmouseleave="enableButton()">
                 <input placeholder="Bairro" type="text" name="" id="district">
                </li>
-                <li id="sendLink" onmouseenter="catchData();">
+                <li id="sendLink" onmouseenter="catchData(),enableButton()">
                     <a id="finalLink" href="">ENTRAR EM CONTATO!</a>
                 </li>
-                <div id="finalLinkBlinder">
-
+                <div id="finalLinkBlinder" onmousedown="checkBox()">
                 </div>
             </ul>
         </div>
