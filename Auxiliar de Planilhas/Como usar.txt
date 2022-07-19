@@ -1,0 +1,6 @@
+O codigo é um codigo JavaScript que foi feito para nos ajudar a organizar os chamados em planilhas Excell, ele pega os dados das paginas do chamado em questão, sendo estes dados: Nome, assunto do chamado, bairro e cidade.
+
+Para usar, basta entrar no Mk Auth, na sessão de chamado em abertos, filtrar o assunto do chamado, clickar com o botão direito na pagina e ir em inspecionar, após, basta copiar todo o codigo do arquivo de texto "codigo", e colar ele na Aba "Console" que abriu no navegador e dar enter.
+
+Vai ser gerado uma grade, aonde em cima, vai aparecer o numero total de chamados, e abaixo, os dados citados anteriormente.
+Se houver muitas paginas, o script pode demorar alguns segundos para filtrar todos os dados. Após a finalização, basta selecionar todos os dados, copiar e colar no Execell, seguindo o numero total de chamados.
