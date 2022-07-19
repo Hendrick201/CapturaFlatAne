@@ -1,0 +1,7 @@
+Home page - last changes.
+search
+userData
+tecData
+admin config
+user config
+connection check, local, ip?, mac?, local time. 
